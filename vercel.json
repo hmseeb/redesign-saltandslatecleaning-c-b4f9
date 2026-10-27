@@ -1,0 +1,434 @@
+{
+  "redirects": [
+    {
+      "source": "/reviews",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/reviews/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/book",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/book/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/guarantee",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/guarantee/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/church-cleaning",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/church-cleaning/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/event-cleaning",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/event-cleaning/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/property-management",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/property-management/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/daycare-cleaning",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/daycare-cleaning/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/salon-spa-cleaning",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/salon-spa-cleaning/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/coworking-space-cleaning",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/coworking-space-cleaning/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/construction-site-cleanup",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/construction-site-cleanup/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/our-process",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/our-process/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/salt-lake-city",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/salt-lake-city/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/summit-county/park-city",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/summit-county/park-city/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/draper",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/draper/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/holladay",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/holladay/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/utah-county/alpine",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/utah-county/alpine/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/cottonwood-heights",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/cottonwood-heights/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/utah-county/highland",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/utah-county/highland/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/wasatch-county/midway",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/wasatch-county/midway/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/sandy",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/sandy/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/south-jordan",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/utah/salt-lake-county/south-jordan/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nevada/clark-county/henderson",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nevada/clark-county/henderson/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nevada/clark-county/las-vegas",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nevada/clark-county/las-vegas/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nevada/clark-county/summerlin",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nevada/clark-county/summerlin/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nevada/clark-county/north-las-vegas",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/nevada/clark-county/north-las-vegas/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/scottsdale",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/scottsdale/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/paradise-valley",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/paradise-valley/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/phoenix",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/phoenix/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/fountain-hills",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/fountain-hills/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/tempe",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/tempe/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/chandler",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/arizona/maricopa-county/chandler/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/collin-county/frisco",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/collin-county/frisco/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/dallas-county/dallas",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/dallas-county/dallas/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/dallas-county/highland-park",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/dallas-county/highland-park/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/collin-county/plano",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/collin-county/plano/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/tarrant-county/southlake",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/tarrant-county/southlake/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/collin-county/mckinney",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/locations/texas/collin-county/mckinney/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/careers",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/careers/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/contact/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/press",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/press/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/terms/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/review",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/review/",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
