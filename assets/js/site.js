@@ -106,8 +106,23 @@
      ---------------------------------------------------------------------- */
   var SUCCESS_TEXT = 'Thanks, your message was sent. A Salt & Slate team member will follow up shortly.';
 
-  function showStatus(form, message, isError) {
+  // The status box normally sits next to the form (inside .form-card), not
+  // inside it, so look inside the form first and then walk up to the nearest
+  // ancestor that contains one before giving up.
+  function findStatusBox(form) {
     var box = form.querySelector('[data-form-status]');
+    if (box) return box;
+    var node = form.parentElement;
+    while (node) {
+      box = node.querySelector('[data-form-status]');
+      if (box) return box;
+      node = node.parentElement;
+    }
+    return null;
+  }
+
+  function showStatus(form, message, isError) {
+    var box = findStatusBox(form);
     if (!box) return;
     box.classList.toggle('form-status--error', !!isError);
     var text = box.querySelector('[data-form-status-text]');
@@ -186,7 +201,7 @@
               showStatus(form, SUCCESS_TEXT, false);
               form.reset();
               if (pageField) pageField.value = window.location.href;
-              var box = form.querySelector('[data-form-status]');
+              var box = findStatusBox(form);
               if (box && box.scrollIntoView) {
                 box.scrollIntoView({ behavior: 'smooth', block: 'center' });
               }
