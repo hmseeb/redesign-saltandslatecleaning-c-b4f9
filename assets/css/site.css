@@ -1408,6 +1408,22 @@ body.nav-open { overflow: hidden; }
 .site-footer a { color: var(--mist); text-decoration: none; }
 .site-footer a:hover { color: #fff; text-decoration: underline; }
 
+/* Buttons in the footer keep their own variant colours: the generic
+   `.site-footer a` rule above is more specific than `.btn--*` and would
+   otherwise render light-on-light (e.g. .btn--light on its white pill). */
+.site-footer a.btn { text-decoration: none; }
+.site-footer a.btn:hover { text-decoration: none; }
+.site-footer a.btn--light,
+.site-footer a.btn--light:hover,
+.site-footer a.btn--ghost,
+.site-footer a.btn--ghost:hover { color: var(--ink); }
+.site-footer a.btn--primary,
+.site-footer a.btn--primary:hover,
+.site-footer a.btn--brass,
+.site-footer a.btn--brass:hover,
+.site-footer a.btn--outline-light,
+.site-footer a.btn--outline-light:hover { color: #fff; }
+
 .footer__top {
   display: grid;
   gap: 2.5rem;
